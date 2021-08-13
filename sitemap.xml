@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foolishfox.cn/s/about/index.html</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://foolishfox.cn/posts/202105-termux-status.html</loc>
     
     <lastmod>2021-07-11</lastmod>
@@ -170,13 +177,6 @@
   </url>
   
   <url>
-    <loc>https://foolishfox.cn/s/about/index.html</loc>
-    
-    <lastmod>2021-05-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://foolishfox.cn/posts/202104-waline.html</loc>
     
     <lastmod>2021-05-28</lastmod>
@@ -228,7 +228,7 @@
 
   <url>
     <loc>https://foolishfox.cn/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -236,175 +236,175 @@
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%A7%91%E6%99%AE/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%93%88%E5%8B%83%E5%B8%B8%E6%95%B0/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%AE%8B%E4%BB%A3/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E8%A7%82%E6%98%9F/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%98%9F%E5%BA%A7/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Hexo/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%94%B6%E5%BD%95/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Python/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E9%A9%AC%E5%88%97%E6%AF%9B%E9%82%93/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/ROS/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Scoop/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/AE9-AP9-SPM/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/MTProxy/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Waline/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Echarts/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Javascript/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Nginx/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/ServerStatus/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/PHP/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%99%BE%E5%BA%A6%E7%BB%9F%E8%AE%A1/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -413,49 +413,49 @@
   
   <url>
     <loc>https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E5%A4%A9%E6%96%87/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E5%8D%9A%E5%AE%A2%E6%88%90%E9%95%BF%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/Termux/</loc>
-    <lastmod>2021-07-22</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
