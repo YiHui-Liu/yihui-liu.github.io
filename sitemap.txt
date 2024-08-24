@@ -1,6 +1,5 @@
 https://foolishfox.cn/s/about/index.html
 https://foolishfox.cn/s/lab/lab.json
-https://foolishfox.cn/posts/202408-server-redeploy.html
 https://foolishfox.cn/posts/202408-journalviewer.html
 https://foolishfox.cn/posts/202407-nameresearch.html
 https://foolishfox.cn/posts/202402-typst-block.html
