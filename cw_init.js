@@ -1,1 +1,0 @@
-(async()=>{"serviceWorker"in navigator?(console.log("FOW_SW is uninstalling."),navigator.serviceWorker.getRegistrations().then(function(e){for(let i of e)i.active.scriptURL.includes("/cw.js")&&i.unregister()})):console.log("CW is not supported.")})();
