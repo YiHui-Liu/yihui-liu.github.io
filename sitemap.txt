@@ -1,3 +1,4 @@
+https://foolishfox.cn/friend.json
 https://foolishfox.cn/about/index.html
 https://foolishfox.cn/lab/lab.json
 https://foolishfox.cn/posts/202408-journalviewer.html

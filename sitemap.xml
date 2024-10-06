@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foolishfox.cn/friend.json</loc>
+    
+    <lastmod>2024-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://foolishfox.cn/about/index.html</loc>
     
     <lastmod>2024-10-04</lastmod>
@@ -301,7 +310,7 @@
 
   <url>
     <loc>https://foolishfox.cn/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -309,301 +318,301 @@
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%AE%8B%E6%9C%9D/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%B8%85%E5%B9%B3%E4%B9%90/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%98%9F%E7%A9%BA/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%98%9F%E5%BA%A7/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Hexo/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Python/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%AB%99%E7%82%B9%E7%BB%9F%E8%AE%A1/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Scoop/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/AE9-AP9-SPM/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/MTProxy/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Waline/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Echarts/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Nginx/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E8%A7%82%E6%98%9F/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/ServerStatus/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Termux/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Yourls/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%9F%AD%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Jupyter/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/R/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%A0%B8%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Geant4/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/ROOT/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/SRIM/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/typst/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/Umami/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E5%BE%AE%E4%BF%A1/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E4%B8%89%E5%9B%BD/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%B1%89%E6%9C%9D/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E4%BD%BF%E5%90%9B/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%A7%B0%E5%91%BC/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E7%A4%BC%E4%BB%AA/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/TemperMonkey/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%B2%B9%E7%8C%B4/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%96%87%E7%8C%AE/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/tags/%E6%9C%9F%E5%88%8A/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -612,84 +621,84 @@
   
   <url>
     <loc>https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/%E5%A4%A9%E6%96%87/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/%E5%8D%9A%E5%AE%A2%E6%88%90%E9%95%BF%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/Termux/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/%E7%A7%91%E6%99%AE/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/Jupyter/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/Geant4/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/ROOT/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2024-10-04</lastmod>
+    <lastmod>2024-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
