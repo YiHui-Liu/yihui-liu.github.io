@@ -93,7 +93,7 @@ function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:"0",color:t[0]};
         var trendsOption = {
             title: { text: '访问趋势', x: 'center' },
             tooltip: { trigger: 'axis' },
-            legend: { data: ['2021', '2022', '2023', '2024'], x: 'right' },
+            legend: { data: ['2021', '2022', '2023', '2024', '2025'], x: 'right' },
             xAxis: {
                 name: '日期', type: 'category', boundaryGap: false,
                 data: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
@@ -115,6 +115,10 @@ function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:"0",color:t[0]};
                 {
                     name: '2024', type: 'line', smooth: true,
                     data: [${l["2024"]}],
+                },
+                {
+                    name: '2025', type: 'line', smooth: true,
+                    data: [${l["2025"]}],
                 }
             ]
         };
