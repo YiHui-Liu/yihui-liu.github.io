@@ -1,4 +1,3 @@
-https://foolishfox.cn/posts/202501-a.html
 https://foolishfox.cn/posts/202501-zsh-comp.html
 https://foolishfox.cn/posts/202411-migrate-24.html
 https://foolishfox.cn/posts/202410-refle-24.html
