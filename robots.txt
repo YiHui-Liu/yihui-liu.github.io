@@ -13,6 +13,4 @@ User-agent: *
 Disallow: 
 Disallow: /tags
 Disallow: /categories
-Disallow: /s/reward
-Disallow: /s/gallery
 Sitemap: https://foolishfox.cn/sitemap.xml
