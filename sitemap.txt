@@ -1,3 +1,4 @@
+https://foolishfox.cn/posts/202502-g4template.html
 https://foolishfox.cn/posts/202501-bing-gitea.html
 https://foolishfox.cn/posts/202501-zsh-comp.html
 https://foolishfox.cn/posts/202411-migrate-24.html
@@ -91,6 +92,7 @@ https://foolishfox.cn/tags/bing/
 https://foolishfox.cn/tags/google/
 https://foolishfox.cn/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95/
 https://foolishfox.cn/tags/gitea/
+https://foolishfox.cn/tags/C-C/
 https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/
 https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/
 https://foolishfox.cn/categories/%E9%9A%8F%E8%AE%B0/%E5%A4%A9%E6%96%87/
