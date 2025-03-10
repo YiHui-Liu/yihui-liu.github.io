@@ -1,10 +1,10 @@
+https://foolishfox.cn/friend.json
 https://foolishfox.cn/posts/202502-g4template.html
 https://foolishfox.cn/posts/202501-bing-gitea.html
 https://foolishfox.cn/posts/202501-zsh-comp.html
 https://foolishfox.cn/posts/202411-migrate-24.html
 https://foolishfox.cn/posts/202410-refle-24.html
 https://foolishfox.cn/about/index.html
-https://foolishfox.cn/friend.json
 https://foolishfox.cn/lab/lab.json
 https://foolishfox.cn/posts/202408-journalviewer.html
 https://foolishfox.cn/posts/202407-nameresearch.html

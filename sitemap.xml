@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://foolishfox.cn/friend.json</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://foolishfox.cn/posts/202502-g4template.html</loc>
     
     <lastmod>2025-02-21</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://foolishfox.cn/about/index.html</loc>
-    
-    <lastmod>2024-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://foolishfox.cn/friend.json</loc>
     
     <lastmod>2024-10-06</lastmod>
     
