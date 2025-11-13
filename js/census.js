@@ -1,4 +1,4 @@
-let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:"0",color:t[0]};n.push(l);if(e&&e>=10){a=Math.floor(e/10)+1;for(var o=1;o<=10;o++){var l={};if(o==1)l.gte=1;else l.gte=a*(o-1);l.lte=a*o;l.color=t[o];n.push(l)}}return JSON.stringify(n)}function append_div_visitcalendar(e,t){if(e!==null){if(typeof t==="string"){var n=document.createElement("div");n.innerHTML=t;var a=document.createDocumentFragment();while(n.firstChild){a.appendChild(n.firstChild)}e.appendChild(a)}else{e.appendChild(t)}}}function compareFunction(l){return function(e,t){var n=e[l];var a=t[l];return n>a?1:n==a?0:-1}}function filterTime(e){const t=new Date(e);const n=t.getFullYear();const a=t.getMonth()+1<10?"0"+(t.getMonth()+1):t.getMonth()+1;const l=t.getDate()<10?"0"+t.getDate():t.getDate();return`${n}-${a}-${l}`}function calChartFunc(){let c=document.createElement("script");let m=new Date;let e=new Date;e.setFullYear(m.getFullYear()-1);let t=m.getTime();let n=e.getTime()-3600*24*((e.getDay()+1)%7);if(n<t-maxDays*86400*1e3)n=t-maxDays*86400*1e3;fetch("https://api.foolishfox.cn/umami/day_view?startAt="+n+"&endAt="+t).then(e=>e.json()).then(a=>{a=a.pageviews;a.sort(compareFunction("x"));let l=[];let t=0,n=0,o=0,r=0;let e=["#EBEDF0","#FFE9BB","#FFD1A7","#FFBB95","#FFA383","#FF8D70","#FF745C","#FF5C4A","#FF4638","#FF2E26","#FF1812"];for(let e=0;e<a.length;e++){if(e>0){let t=new Date(a[e-1].x.replace(/-/g,"/"));let n=new Date(a[e].x.replace(/-/g,"/"));if(n.getTime()-t.getTime()!=86400*1e3)for(let e=1;e<(n.getTime()-t.getTime())/(86400*1e3);e++){n=new Date(t.getTime()+86400*1e3*e);l.push([filterTime(n).slice(0,10),0])}}l.push([a[e].x.slice(0,10),a[e].y]);t=a[e].y>t?a[e].y:t;n+=a[e].y}if(l[l.length-1][0]!=filterTime(m))l.push([filterTime(m),0]);for(let e=l.length-1;e>=l.length-7;e--)o+=l[e][1];for(let e=l.length-1;e>=l.length-30;e--)r+=l[e][1];let i=JSON.stringify(l);c.innerHTML=`
+let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:"0",color:t[0]};n.push(l);if(e&&e>=10){a=Math.floor(e/10)+1;for(var r=1;r<=10;r++){var l={};if(r==1)l.gte=1;else l.gte=a*(r-1);l.lte=a*r;l.color=t[r];n.push(l)}}return JSON.stringify(n)}function append_div_visitcalendar(e,t){if(e!==null){if(typeof t==="string"){var n=document.createElement("div");n.innerHTML=t;var a=document.createDocumentFragment();while(n.firstChild){a.appendChild(n.firstChild)}e.appendChild(a)}else{e.appendChild(t)}}}function compareFunction(l){return function(e,t){var n=e[l];var a=t[l];return n>a?1:n==a?0:-1}}function filterTime(e){const t=new Date(e);const n=t.getFullYear();const a=t.getMonth()+1<10?"0"+(t.getMonth()+1):t.getMonth()+1;const l=t.getDate()<10?"0"+t.getDate():t.getDate();return`${n}-${a}-${l}`}function calChartFunc(){let c=document.createElement("script");let m=new Date;let e=new Date;e.setFullYear(m.getFullYear()-1);let t=m.getTime();let n=e.getTime()-3600*24*((e.getDay()+1)%7);if(n<t-maxDays*86400*1e3)n=t-maxDays*86400*1e3;fetch("https://api.foolishfox.cn/umami/day_view?startAt="+n+"&endAt="+t).then(e=>e.json()).then(a=>{a=a.pageviews;a.sort(compareFunction("x"));let l=[];let t=0,n=0,r=0,o=0;let e=["#EBEDF0","#FFE9BB","#FFD1A7","#FFBB95","#FFA383","#FF8D70","#FF745C","#FF5C4A","#FF4638","#FF2E26","#FF1812"];for(let e=0;e<a.length;e++){if(e>0){let t=new Date(a[e-1].x.replace(/-/g,"/"));let n=new Date(a[e].x.replace(/-/g,"/"));if(n.getTime()-t.getTime()!=86400*1e3)for(let e=1;e<(n.getTime()-t.getTime())/(86400*1e3);e++){n=new Date(t.getTime()+86400*1e3*e);l.push([filterTime(n).slice(0,10),0])}}l.push([a[e].x.slice(0,10),a[e].y]);t=a[e].y>t?a[e].y:t;n+=a[e].y}if(l[l.length-1][0]!=filterTime(m))l.push([filterTime(m),0]);for(let e=l.length-1;e>=l.length-7;e--)r+=l[e][1];for(let e=l.length-1;e>=l.length-30;e--)o+=l[e][1];let i=JSON.stringify(l);c.innerHTML=`
         var calChart = echarts.init(document.getElementById("calendar_container"));
         var option = {
             title: { text: '访问日历', x: 'center' },
@@ -56,19 +56,37 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                 data: ${i},
             }]
         };
-        calChart.setOption(option);`;let s="<style>.number{margin-top: 10px;text-align:center;width:100%;padding:10px;margin:0 auto;}.contrib-column{text-align:center;border-left:1px solid #ddd;border-top:1px solid #ddd;}.contrib-column-first{border-left:0;}.table-column{padding:10px;display:table-cell;flex:1;vertical-align:top;}.contrib-number{font-weight:400;line-height:1.3em;font-size:24px;display:block;}.left.text-muted{float:left;margin-left:9px;color:#767676;}.left.text-muted a{color:#4078c0;text-decoration:none;}.left.text-muted a:hover{text-decoration:underline;}h2.f4.text-normal.mb-3{display:none;}.float-left.text-gray{float:left;}.position-relative{width:100%;}@media screen and (max-width:650px){.contrib-column{display:none}}</style>";s='<div style="display:flex;width:100%" class="number"><div class="contrib-column contrib-column-first table-column"><span class="text-muted">过去'+maxDays+'天访问</span><span class="contrib-number">'+n+'</span><span class="text-muted">'+l[0][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+'</span></div><div class="contrib-column table-column"><span class="text-muted">最近30天访问</span><span class="contrib-number">'+r+'</span><span class="text-muted">'+l[l.length-30][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+'</span></div><div class="contrib-column table-column"><span class="text-muted">最近7天访问</span><span class="contrib-number">'+o+'</span><span class="text-muted">'+l[l.length-7][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+"</span></div></div>"+s;document.getElementById("calendar_container").after(c);append_div_visitcalendar(calendar_container,s)}).catch(function(e){console.log(e)})}function mapChartFunc(){let l=document.createElement("script");let e=new Date;let t=new Date;t.setFullYear(2021,9,1);let n=t.getTime();let a=e.getTime();fetch("https://api.foolishfox.cn/umami/country?startAt="+n+"&endAt="+a).then(e=>e.json()).then(t=>{let n=[];let a=0;for(let e=0;e<t.length;e++){a=t[e].y>a?t[e].y:a;n.push({name:t[e].x,value:t[e].y})}let e=JSON.stringify(n);l.innerHTML=`
+        calChart.setOption(option);`;let s="<style>.number{margin-top: 10px;text-align:center;width:100%;padding:10px;margin:0 auto;}.contrib-column{text-align:center;border-left:1px solid #ddd;border-top:1px solid #ddd;}.contrib-column-first{border-left:0;}.table-column{padding:10px;display:table-cell;flex:1;vertical-align:top;}.contrib-number{font-weight:400;line-height:1.3em;font-size:24px;display:block;}.left.text-muted{float:left;margin-left:9px;color:#767676;}.left.text-muted a{color:#4078c0;text-decoration:none;}.left.text-muted a:hover{text-decoration:underline;}h2.f4.text-normal.mb-3{display:none;}.float-left.text-gray{float:left;}.position-relative{width:100%;}@media screen and (max-width:650px){.contrib-column{display:none}}</style>";s='<div style="display:flex;width:100%" class="number"><div class="contrib-column contrib-column-first table-column"><span class="text-muted">过去'+maxDays+'天访问</span><span class="contrib-number">'+n+'</span><span class="text-muted">'+l[0][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+'</span></div><div class="contrib-column table-column"><span class="text-muted">最近30天访问</span><span class="contrib-number">'+o+'</span><span class="text-muted">'+l[l.length-30][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+'</span></div><div class="contrib-column table-column"><span class="text-muted">最近7天访问</span><span class="contrib-number">'+r+'</span><span class="text-muted">'+l[l.length-7][0]+"&nbsp;-&nbsp;"+l[l.length-1][0]+"</span></div></div>"+s;document.getElementById("calendar_container").after(c);append_div_visitcalendar(calendar_container,s)}).catch(function(e){console.log(e)})}function mapChartFunc(){let l=document.createElement("script");let e=new Date;let t=new Date;t.setFullYear(2021,9,1);let n=t.getTime();let a=e.getTime();fetch("https://api.foolishfox.cn/umami/country?startAt="+n+"&endAt="+a).then(e=>e.json()).then(t=>{let n=[];let a=0;for(let e=0;e<t.length;e++){a=t[e].y>a?t[e].y:a;n.push({name:t[e].x,value:t[e].y})}let e=JSON.stringify(n);l.innerHTML=`
+        let processedData = ${e}.map(item => {
+            const safeValue = Math.max(1, item.value);
+            return {
+                name: item.name,
+                value: Math.log10(safeValue),
+                origin: safeValue
+            };
+        });
         var mapChart = echarts.init(document.getElementById('map_container'), 'light');
         var mapOption = {
             title: { text: '访问地点(按人数记)', x: 'center' },
-            tooltip: { trigger: 'item' },
+            tooltip: {
+                trigger: 'item',
+                formatter: function (params) {
+                    if (params.data && params.data.origin !== undefined)
+                        return params.name + ': ' + params.data.origin;
+                    return params.name;
+                }
+            },
             visualMap: {
                 min: 0,
-                max: ${a},
+                max: Math.log10(${a}),
                 left: 'left',
                 top: 'bottom',
                 text: ['高','低'],
-                color: ['#1E90FF', '#AAFAFA'],
-                calculable: true
+                calculable: true,
+                inRange: {
+                    color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+                },
+                formatter: (value) => Math.round(Math.pow(10, value)),
             },
             series: [{
                 name: '访问人数',
@@ -85,7 +103,7 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                     },
                     emphasis: { areaColor: 'gold' }
                 },
-                data: ${e}
+                data: processedData
             }]
         };
         mapChart.setOption(mapOption);`;document.getElementById("map_container").after(l)}).catch(function(e){console.log(e)})}function get_year(e){return parseInt(e.substr(0,4))}function get_month(e){return parseInt(e.substr(5,2))}function trendsChartFunc(){let e=document.createElement("script");let t=new Date;let n=new Date;n.setFullYear(2021,9,1);let a=n.getTime();let l=t.getTime();fetch("https://api.foolishfox.cn/umami/month_view?startAt="+a+"&endAt="+l).then(e=>e.json()).then(a=>{a=a.pageviews;let t=new Date;let l={};for(let e=2020;e<=t.getFullYear();e++)l[String(e)]=[,,,,,,,,,,,];for(let n=0;n<a.length;n++){let e=get_year(a[n].x);let t=get_month(a[n].x);l[String(e)][String(t-1)]=a[n].y}e.innerHTML=`
@@ -122,10 +140,10 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                 }
             ]
         };
-        trendsChart.setOption(trendsOption);`;document.getElementById("trends_container").after(e)}).catch(function(e){console.log(e)})}function sourcesChartFunc(){let e=document.createElement("script");var a=0,l=0,o=0;var r=0,i=0,s=0;var c=0,m=0,d=0;let t=new Date;let n=new Date;n.setFullYear(2021,9,1);let u=n.getTime();let p=t.getTime();fetch("https://api.foolishfox.cn/umami/referrer?startAt="+u+"&endAt="+p).then(e=>e.json()).then(t=>{for(let e=0;e<t.length;e++){var n=t[e].x;if(n==null||n==""||n.includes("foolishfox.cn"))l+=t[e].y;else if(n.includes("bing.com"))s+=t[e].y;else if(n.includes("baidu.com"))i+=t[e].y;else if(n.includes("google.com"))r+=t[e].y;else if(n.includes("sogou.com")||n.includes("sm.cn")||n.includes("toutiao.com")||n.includes("so.com"))o+=t[e].y;else if(n.includes("github.com"))c+=t[e].y;else if(n.includes("travellings")||n.includes("foreverblog"))m+=t[e].y;else if(n.includes("weibo.cn"))d+=t[e].y;else a+=t[e].y}a+=c+m+d;o+=i+r+s;e.innerHTML+=`
+        trendsChart.setOption(trendsOption);`;document.getElementById("trends_container").after(e)}).catch(function(e){console.log(e)})}function sourcesChartFunc(){let e=document.createElement("script");var a=0,l=0,r=0;var o=0,i=0,s=0;var c=0,m=0,d=0;let t=new Date;let n=new Date;n.setFullYear(2021,9,1);let u=n.getTime();let p=t.getTime();fetch("https://api.foolishfox.cn/umami/referrer?startAt="+u+"&endAt="+p).then(e=>e.json()).then(t=>{for(let e=0;e<t.length;e++){var n=t[e].x;if(n=="direct")l=t[e].y;else if(n.includes("localhost")||n.includes("127.0.0.1")||n.includes("foolishfox.cn"))l-=t[e].y;else if(n.includes("bing.com"))s+=t[e].y;else if(n.includes("baidu.com"))i+=t[e].y;else if(n.includes("google.com"))o+=t[e].y;else if(n.includes("sogou.com")||n.includes("sm.cn")||n.includes("toutiao.com")||n.includes("so.com")||n.includes("quark.cn"))r+=t[e].y;else if(n.includes("github.com"))c+=t[e].y;else if(n.includes("travellings")||n.includes("foreverblog"))m+=t[e].y;else if(n.includes("weibo.cn"))d+=t[e].y;else a+=t[e].y}a+=c+m+d;r+=i+o+s;e.innerHTML+=`
         var sourcesChart = echarts.init(document.getElementById('sources_container'), 'light');
         var sourcesOption = {
-            title: { text: '访问来源', x: 'center', },
+            title: { text: '访客来源', x: 'center', },
             tooltip: { trigger: 'item', formatter: '{a} <br/>{b}: {c} ({d}%)' },
             legend: {
                 data: ['直达', '外链', '搜索', '百度', '谷歌', '必应', 'Github', '开往/十年之约', '微博'],
@@ -147,8 +165,8 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                         }
                     },
                     data: [
-                        {value: ${o-r-i-s}, name: '其他', itemStyle: { color : '#008000' }},
-                        {value: ${r}, name: '谷歌', itemStyle: { color : '#009000' }},
+                        {value: ${r-o-i-s}, name: '其他', itemStyle: { color : '#008000' }},
+                        {value: ${o}, name: '谷歌', itemStyle: { color : '#009000' }},
                         {value: ${i}, name: '百度', itemStyle: { color : '#00A000' }},
                         {value: ${s}, name: '必应', itemStyle: { color : '#00B000' }},
                         {value: ${l}, name: '直达', itemStyle: { color : '#FFDB5C' }},
@@ -163,7 +181,7 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                     label: { position: 'inner', fontSize: 14},
                     labelLine: { show: false },
                     data: [
-                        {value: ${o}, name: '搜索', itemStyle: { color : '#008000' }},
+                        {value: ${r}, name: '搜索', itemStyle: { color : '#008000' }},
                         {value: ${l}, name: '直达', itemStyle: { color : '#FFDB5C' }},
                         {value: ${a}, name: '外链', itemStyle: { color : '#4682B4' }}
                     ]
