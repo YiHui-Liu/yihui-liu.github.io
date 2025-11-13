@@ -73,11 +73,11 @@
     <category term="工具" scheme="https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/%E5%B7%A5%E5%85%B7/"/>
     
     
+    <category term="网站收录" scheme="https://foolishfox.cn/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95/"/>
+    
     <category term="bing" scheme="https://foolishfox.cn/tags/bing/"/>
     
     <category term="google" scheme="https://foolishfox.cn/tags/google/"/>
-    
-    <category term="网站收录" scheme="https://foolishfox.cn/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95/"/>
     
     <category term="gitea" scheme="https://foolishfox.cn/tags/gitea/"/>
     
@@ -290,9 +290,9 @@ From &lt;a href=&quot;https://yayu.net/4626.html&quot;&gt;独立博客自省问�
     <category term="软件/程序" scheme="https://foolishfox.cn/categories/%E8%BD%AF%E4%BB%B6-%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="教程" scheme="https://foolishfox.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Python" scheme="https://foolishfox.cn/tags/Python/"/>
+    
+    <category term="教程" scheme="https://foolishfox.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="Jupyter" scheme="https://foolishfox.cn/tags/Jupyter/"/>
     
