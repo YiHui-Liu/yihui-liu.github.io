@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.foolishfox.cn/friend.json</loc>
+    
+    <lastmod>2025-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.foolishfox.cn/about/index.html</loc>
+    
+    <lastmod>2025-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.foolishfox.cn/posts/202207-descss.html</loc>
     
     <lastmod>2025-11-13</lastmod>
@@ -47,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://www.foolishfox.cn/friend.json</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.foolishfox.cn/posts/202502-g4template.html</loc>
     
     <lastmod>2025-02-21</lastmod>
@@ -95,15 +104,6 @@
     <loc>https://www.foolishfox.cn/posts/202410-refle-24.html</loc>
     
     <lastmod>2024-10-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.foolishfox.cn/about/index.html</loc>
-    
-    <lastmod>2024-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
