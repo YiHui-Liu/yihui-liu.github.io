@@ -137,6 +137,10 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
                 {
                     name: '2025', type: 'line', smooth: true,
                     data: [${l["2025"]}],
+                },
+                {
+                    name: '2026', type: 'line', smooth: true,
+                    data: [${l["2026"]}],
                 }
             ]
         };
