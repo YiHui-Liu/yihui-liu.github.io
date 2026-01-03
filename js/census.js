@@ -111,7 +111,7 @@ let maxDays=180;function generatePieces(e,t){var n=[];var a=1;var l={lt:1,label:
         var trendsOption = {
             title: { text: '访问趋势', x: 'center' },
             tooltip: { trigger: 'axis' },
-            legend: { data: ['2021', '2022', '2023', '2024', '2025'], x: 'right' },
+            legend: { data: ['2021', '2022', '2023', '2024', '2025', '2026'], x: 'right' },
             xAxis: {
                 name: '日期', type: 'category', boundaryGap: false,
                 data: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
