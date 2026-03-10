@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.foolishfox.cn/posts/202603-malaysia2026.html</loc>
+    
+    <lastmod>2026-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.foolishfox.cn/posts/202512-wsl-notify.html</loc>
     
     <lastmod>2025-12-29</lastmod>
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.foolishfox.cn/posts/202407-nameresearch.html</loc>
+    <loc>https://www.foolishfox.cn/posts/202408-journalviewer.html</loc>
     
     <lastmod>2025-11-13</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.foolishfox.cn/posts/202408-journalviewer.html</loc>
+    <loc>https://www.foolishfox.cn/posts/202407-nameresearch.html</loc>
     
     <lastmod>2025-11-13</lastmod>
     
@@ -391,7 +400,7 @@
 
   <url>
     <loc>https://www.foolishfox.cn/</loc>
-    <lastmod>2026-01-03</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
