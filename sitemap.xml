@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.foolishfox.cn/posts/202605-malaysia2026-food.html</loc>
+    
+    <lastmod>2026-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.foolishfox.cn/posts/202603-code-clangd.html</loc>
     
     <lastmod>2026-03-21</lastmod>
@@ -409,7 +418,7 @@
 
   <url>
     <loc>https://www.foolishfox.cn/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
