@@ -77,8 +77,6 @@
     
     <category term="亚庇" scheme="https://www.foolishfox.cn/tags/%E4%BA%9A%E5%BA%87/"/>
     
-    <category term="旅游攻略" scheme="https://www.foolishfox.cn/tags/%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/"/>
-    
     <category term="美食" scheme="https://www.foolishfox.cn/tags/%E7%BE%8E%E9%A3%9F/"/>
     
     <category term="咸蛋黄" scheme="https://www.foolishfox.cn/tags/%E5%92%B8%E8%9B%8B%E9%BB%84/"/>
@@ -88,6 +86,8 @@
     <category term="蟹" scheme="https://www.foolishfox.cn/tags/%E8%9F%B9/"/>
     
     <category term="海鲜" scheme="https://www.foolishfox.cn/tags/%E6%B5%B7%E9%B2%9C/"/>
+    
+    <category term="旅游攻略" scheme="https://www.foolishfox.cn/tags/%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/"/>
     
   </entry>
   
@@ -150,13 +150,13 @@
     
     <category term="仙本那" scheme="https://www.foolishfox.cn/tags/%E4%BB%99%E6%9C%AC%E9%82%A3/"/>
     
-    <category term="潜水" scheme="https://www.foolishfox.cn/tags/%E6%BD%9C%E6%B0%B4/"/>
-    
     <category term="亚庇" scheme="https://www.foolishfox.cn/tags/%E4%BA%9A%E5%BA%87/"/>
     
-    <category term="日落" scheme="https://www.foolishfox.cn/tags/%E6%97%A5%E8%90%BD/"/>
-    
     <category term="旅游攻略" scheme="https://www.foolishfox.cn/tags/%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/"/>
+    
+    <category term="潜水" scheme="https://www.foolishfox.cn/tags/%E6%BD%9C%E6%B0%B4/"/>
+    
+    <category term="日落" scheme="https://www.foolishfox.cn/tags/%E6%97%A5%E8%90%BD/"/>
     
   </entry>
   
